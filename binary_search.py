@@ -28,7 +28,7 @@ def count_repeats(xs, x):
 
     def find_first_occ(left, right, x):
 
-        # if the only thing in arr is x, return left. Otherwise return None
+        #if the only thing in arr is x, return left. Otherwise return None
         if left == right:
             if xs[left] == x:
                 return left
